@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Attendence</h3>
+    <form onsubmit="handleSubmit(event)">
+        <input type="date" id="date" >
+        <button type="submit">Search</button>
+    </form>
+    <ul id="peopleList">
+
+    </ul>
+    <div id="attendanceChoices"></div>
+
+<!--
+    <label for="datePicker">Choose a date:</label>
+<input type="date" id="datePicker">
+<button onclick="showAttendance()">Show Attendance</button>
+<div id="attendanceList"></div>
+<button onclick="markAttendance()">Mark</button>
+<div id="totalData"></div> -->
+
+    
+
+    <script src="main.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
