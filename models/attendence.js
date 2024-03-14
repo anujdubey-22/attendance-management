@@ -18,9 +18,9 @@ const attendence = sequelize.define('attendence', {
         allowNull: false
       },
     status: {
-        type: Sequelize.ENUM('present', 'absent'),
+        type: Sequelize.ENUM('Present', 'Absent'),
         allowNull: false
-      }
+      },
 });
 
 

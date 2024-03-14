@@ -8,9 +8,10 @@
 <body>
     <h3>Attendence</h3>
     <form onsubmit="handleSubmit(event)">
-        <input type="date" id="date" >
+        <input type="date" id="date" required >
         <button type="submit">Search</button>
     </form>
+    <button type="submit" onclick="getData()">Fetch Attendance Till Now</button>
     <ul id="peopleList">
 
     </ul>
